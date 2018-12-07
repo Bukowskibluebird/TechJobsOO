@@ -15,17 +15,26 @@
 <table class="job-listing">
     <tr>
         <th>Name</th>
-        <th>Employer</th>
-        <th>Location</th>
-        <th>CoreCompetency</th>
-        <th>PositioningType</th>
+        <td>@Model.Name</td>
     </tr>
 
     <tr>
-        <td>@Model.Name</td>
+        <th>Employer</th>
         <td>@Model.Employer</td>
+    </tr>
+
+    <tr>
+        <th>Location</th>
         <td>@Model.Location</td>
+    </tr>
+
+    <tr>
+        <th>CoreCompetency</th>
         <td>@Model.CoreCompetency</td>
+    </tr>
+
+    <tr>
+        <th>PositioningType</th>
         <td>@Model.PositionType</td>
     </tr>
 
